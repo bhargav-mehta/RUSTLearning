@@ -16,6 +16,6 @@ fn add(x: i32, y: i32) -> i32 {
     x + y
 }
 
-fn add(x: i32, y: i32, z: i32) -> i32 {
-   x + y + z
-}
+// fn add(x: i32, y: i32, z: i32) -> i32 {
+//    x + y + z
+// }
