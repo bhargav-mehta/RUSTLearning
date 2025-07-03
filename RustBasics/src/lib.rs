@@ -1,3 +1,3 @@
-fn greet(name: &str) {
+pub fn greet(name: &str) {
     println!("Greetings, {}!", name);
 }
