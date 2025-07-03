@@ -1,4 +1,9 @@
+include!("./lib.rs");
+
 fn main() {
+    println!("Hello, This is Bhargav's first line in Rust !");
+    greet("Bhargav");
+
     let x = 5;
     let y = 10;
     let sum = x + y;
@@ -6,10 +11,11 @@ fn main() {
 
     let mut a = 15; // This line will cause an error because x is immutable
     println!("The value of a is: {}", a);
-    a = 20; // This line is fine because a is mutable
+    a = add(30,20); // This line is fine because a is mutable
+
     println!("The value of a after change is: {}", a);
 
-    println!("Hello, This is Bhargav's first line in Rust !");
+    
 }
 
 fn add(x: i32, y: i32) -> i32 {
