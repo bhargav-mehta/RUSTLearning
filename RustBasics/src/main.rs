@@ -1,4 +1,5 @@
-include!("./lib.rs");
+mod lib;
+use lib::greet;
 
 fn main() {
     println!("Hello, This is Bhargav's first line in Rust !");
